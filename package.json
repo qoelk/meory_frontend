@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "sass": "^1.43.4"
+  }
+}
