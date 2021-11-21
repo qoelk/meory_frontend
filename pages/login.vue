@@ -1,10 +1,12 @@
 <template>
-<div class="">hi</div>
+  <div><dialog-box/></div>
 </template>
 
 <script>
+import DialogBox from "../components/ui/DialogBox";
 export default {
-  name: "login"
+  name: "login",
+  components: {DialogBox}
 }
 </script>
 

@@ -1,12 +1,14 @@
 <template>
 <div class="">
-  a
+  <dialog-box/>
 </div>
 </template>
 
 <script>
+import {DialogBox} from '~/components/ui/DialogBox'
 export default {
-  name: "index.vue"
+  name: "index.vue",
+  components: {DialogBox}
 }
 </script>
 
